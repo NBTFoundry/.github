@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
@@ -54,13 +55,13 @@ come later.
 
 ### Projects
 
-| Repository | What it is |
-| --- | --- |
-| [manager](https://github.com/NBTFoundry/manager) | NBT Manager, on the head unit: the iDrive menu entry, the manager's screen, signed installs and updates with rollback, the application bridge |
-| [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, the package library, installs, updates, settings and logs |
-| [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable, updates it, collects diagnostics |
-| [sdk](https://github.com/NBTFoundry/sdk) | The C++11 SDK for applications: lifecycle, display, audio, controller and gamepad input |
-| [doom](https://github.com/NBTFoundry/doom) | PrBoom+ on the head unit, built on the SDK |
+| Repository | What it is | License |
+| --- | --- | --- |
+| [manager](https://github.com/NBTFoundry/manager) | NBT Manager, on the head unit: the iDrive menu entry, the manager's screen, signed installs and updates with rollback, the application bridge | MPL-2.0 |
+| [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, the package library, installs, updates, settings and logs | MPL-2.0 |
+| [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable, updates it, collects diagnostics | GPL-3.0-or-later; shared core/bindings MPL-2.0 |
+| [sdk](https://github.com/NBTFoundry/sdk) | The C++11 SDK for applications: lifecycle, display, audio, controller and gamepad input | MPL-2.0 |
+| [doom](https://github.com/NBTFoundry/doom) | PrBoom+ on the head unit, built on the SDK | GPL-2.0-or-later; game data separate |
 
 ### How the pieces fit
 
@@ -75,6 +76,8 @@ flowchart LR
 
 ### Safety
 
+> **Warning: installing or modifying this software can brick your head unit. Recovery may require professional service or replacement, at your expense. Provided AS IS; use at your own risk, subject to applicable law.** [Read the risk and liability disclaimer](../DISCLAIMER.md).
+
 Use applications only while parked. Changing the software of a head unit is at
 your own risk: it can affect the car's systems and its warranty.
 
@@ -82,3 +85,11 @@ your own risk: it can affect the car's systems and its warranty.
 
 <sub>Not affiliated with or endorsed by BMW AG. BMW, iDrive and NBT are trademarks of
 BMW AG. DOOM is a trademark of id Software.</sub>
+
+## License
+
+Copyright (c) 2026 Fabien Poussin. Original code, tests, build scripts and documentation are licensed under **MPL-2.0**; see [LICENSE](../LICENSE).
+
+Original NBTFoundry logos, artwork and screenshots are under **MPL-2.0**, including copies in other NBTFoundry repositories. Third-party code, fonts, game data and their notices retain their own terms. Copyright permission for artwork does not grant trademark rights or imply endorsement by BMW AG or id Software.
+
+See [legal/README.md](../legal/README.md) for third-party license notices.

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MPL-2.0
 """Builds the NBTFoundry brand kit: the mark (the iDrive knob's detent ring
 around a grid of apps), the wordmark lockups, and the PNG exports used by the
 repositories, the phone app and the iDrive menu.

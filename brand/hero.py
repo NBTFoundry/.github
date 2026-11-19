@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MPL-2.0
 """Draws the organization profile's hero illustration, light and dark: the phone
 app and the desktop installer around the head unit's screen, the driver's
 approval on the iDrive controller below it.

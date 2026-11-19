@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: MPL-2.0 -->
 # NBTFoundry brand kit
 
 The mark is the iDrive controller's detent ring around a grid of applications,
