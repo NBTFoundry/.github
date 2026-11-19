@@ -60,8 +60,8 @@ come later.
 | [manager](https://github.com/NBTFoundry/manager) | NBT Manager, on the head unit: the iDrive menu entry, the manager's screen, signed installs and updates with rollback, the application bridge | MPL-2.0 |
 | [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, the package library, installs, updates, settings and logs | MPL-2.0 |
 | [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable, updates it, collects diagnostics | GPL-3.0-or-later; shared core/bindings MPL-2.0 |
-| [sdk](https://github.com/NBTFoundry/sdk) | The C++11 SDK for applications: lifecycle, display, audio, controller and gamepad input | MPL-2.0 |
-| [doom](https://github.com/NBTFoundry/doom) | PrBoom+ on the head unit, built on the SDK | GPL-2.0-or-later; game data separate |
+| [sdk](https://github.com/NBTFoundry/sdk) | The C++11 SDK for applications: lifecycle, display, audio, controller and gamepad input, files, a reusable front end and a libretro host for emulators | MPL-2.0 |
+| [nf-doom](https://github.com/NBTFoundry/nf-doom) | PrBoom+ on the head unit, built on the SDK | GPL-2.0-or-later; game data separate |
 
 ### How the pieces fit
 
