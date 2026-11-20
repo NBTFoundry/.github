@@ -38,7 +38,8 @@ come later.
   wired USB gamepad, and change their settings live from the phone.
 - **Write your own.** The C++ SDK gives an application the screen (OpenGL ES 2),
   audio, input and the manager's lifecycle, and builds the same code for a Linux
-  desktop.
+  desktop. The NBT toolchain, prebuilt for Linux, macOS and Windows, compiles it
+  for the car with open-source tools only, without the QNX SDK.
 - **Play Doom on the dashboard.** The shareware episode, as the example
   application.
 
@@ -61,6 +62,7 @@ come later.
 | [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, the package library, installs, updates, settings and logs | MPL-2.0 |
 | [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable, updates it, collects diagnostics | GPL-3.0-or-later; shared core/bindings MPL-2.0 |
 | [sdk](https://github.com/NBTFoundry/sdk) | The C++11 SDK for applications: lifecycle, display, audio, controller and gamepad input, files, a reusable front end and a libretro host for emulators | MPL-2.0 |
+| [toolchains](https://github.com/NBTFoundry/toolchains) | The NBT toolchain: Clang and LLD with the runtime applications link (picolibc, libc++), released for Linux, macOS and Windows | MPL-2.0; LLVM and picolibc under their own licenses |
 | [nf-doom](https://github.com/NBTFoundry/nf-doom) | PrBoom+ on the head unit, built on the SDK | GPL-2.0-or-later; game data separate |
 
 ### How the pieces fit
@@ -72,6 +74,7 @@ flowchart LR
   IDRIVE["iDrive menu and controller"] <--> MANAGER
   MANAGER -->|"screen · input · audio · settings"| APP["Applications<br/>built with the SDK"]
   SDK["SDK"] -.-> APP
+  TOOLCHAIN["NBT toolchain"] -.-> APP
 ```
 
 ### Safety
