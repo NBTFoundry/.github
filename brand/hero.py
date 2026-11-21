@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MPL-2.0
 """Draws the organization profile's illustrations, light and dark, and exports
-them as PNG: GitHub's mobile app shows no SVG image.
+them as PNG, so the profile looks the same everywhere, labels included.
 
 - hero: the phone app and the desktop installer around the head unit's
   screen, the driver's approval on the iDrive controller below it;

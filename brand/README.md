@@ -29,8 +29,8 @@ python3 brand/render.py   # needs fontTools, Space Grotesk and Inkscape; pngquan
 python3 brand/hero.py     # the profile's illustrations and their PNG exports (needs Inkscape)
 ```
 
-The profile shows PNG exports, because GitHub's mobile app shows no SVG image:
-`hero.py` draws `profile/assets/{hero,pieces}-{light,dark}.svg` (the sources)
+The profile shows PNG exports, so it looks the same everywhere, labels
+included (the SVGs' text takes the viewer's fonts): `hero.py` draws `profile/assets/{hero,pieces}-{light,dark}.svg` (the sources)
 and exports them at 2x, with the logo copies `profile/assets/logo-*.svg` at
 3x. Light exports get a white background, so they stay readable on a dark page
 that ignores `<picture>`. The profile names every image and link by its full
