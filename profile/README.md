@@ -72,6 +72,7 @@ yet and are built from source.
 | [nf-doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.20](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.20) | GPL-2.0-or-later; game data separate |
 | [nf-snes9x](https://github.com/NBTFoundry/nf-snes9x) | Snes9x: Super Nintendo games you own, from the phone or a USB stick | [1.63.0](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.0) | MPL-2.0; Snes9x non-commercial |
 | [nf-fbneo](https://github.com/NBTFoundry/nf-fbneo) | FinalBurn Neo: arcade games from zipped romsets | Car testing | MPL-2.0; FinalBurn Neo non-commercial |
+| [nf-pcsx-rearmed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PCSX ReARMed: PlayStation games you own, from a USB stick | Car testing | GPL-2.0-or-later |
 | [nf-android-auto](https://github.com/NBTFoundry/nf-android-auto) | Android Auto: [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto), installed and updated like any application | Test build | MPL-2.0; NBT-AAD PolyForm Noncommercial 1.0.0 |
 
 Apart from Doom's shareware episode, no game, ROM or BIOS is included: use only
@@ -108,7 +109,7 @@ your own risk: it can affect the car's systems and its warranty.
 
 <sub>Not affiliated with or endorsed by BMW AG or any other trademark owner named here.
 BMW, iDrive and NBT are trademarks of BMW AG; DOOM of id Software; Super Nintendo of
-Nintendo; Android Auto of Google LLC.</sub>
+Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Android Auto of Google LLC.</sub>
 
 ## License
 

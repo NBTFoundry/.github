@@ -159,7 +159,7 @@ def pieces(t):
         # The driver drives and approves on iDrive, below the manager (as in the hero).
         f'<line x1="480" y1="232" x2="480" y2="276" stroke="{t["line"]}" stroke-width="2"/>',
         box(t, 380, 276, 200, 44, "iDrive menu and controller", size=13.5, title_y=303),
-        box(t, 736, 40, 200, 120, "Applications", ("Doom · Snes9x", "FinalBurn Neo", "Android Auto"),
+        box(t, 736, 40, 200, 120, "Applications", ("Doom · Snes9x", "FinalBurn Neo · PCSX", "Android Auto"),
             title_y=78),
         box(t, 736, 216, 200, 64, "SDK · NBT toolchain", ("C++11, no QNX SDK needed",)),
         arrow(t, 204, 72, 372, 72, "signed packages · Wi-Fi", 288, 62),
