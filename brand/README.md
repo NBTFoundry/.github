@@ -26,8 +26,14 @@ one of them highlighted. The wordmark is "NBT" in Space Grotesk Bold and
 
 ```sh
 python3 brand/render.py   # needs fontTools, Space Grotesk and Inkscape; pngquant when present
-python3 brand/hero.py     # the profile's illustration, profile/assets/hero-{light,dark}.svg
+python3 brand/hero.py     # the profile's illustrations and their PNG exports (needs Inkscape)
 ```
+
+The profile shows PNG exports, because GitHub's mobile app shows no SVG image:
+`hero.py` draws `profile/assets/{hero,pieces}-{light,dark}.svg` (the sources)
+and exports them at 2x, with the logo copies `profile/assets/logo-*.svg` at
+3x. Light exports get a white background, so they stay readable on a dark page
+that ignores `<picture>`.
 
 The manager's `plugin/assets/` and the phone app's `assets/` hold copies of the
 PNG exports.
