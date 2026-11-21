@@ -33,7 +33,9 @@ The profile shows PNG exports, because GitHub's mobile app shows no SVG image:
 `hero.py` draws `profile/assets/{hero,pieces}-{light,dark}.svg` (the sources)
 and exports them at 2x, with the logo copies `profile/assets/logo-*.svg` at
 3x. Light exports get a white background, so they stay readable on a dark page
-that ignores `<picture>`.
+that ignores `<picture>`. The profile names every image and link by its full
+URL (`raw.githubusercontent.com`, `github.com/.../blob/main`): the mobile app
+shows the profile outside the repository, where relative paths lead nowhere.
 
 The manager's `plugin/assets/` and the phone app's `assets/` hold copies of the
 PNG exports.

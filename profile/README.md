@@ -1,8 +1,8 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
-    <img src="assets/logo-light.png" alt="NBTFoundry" height="56">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/logo-dark.png">
+    <img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/logo-light.png" alt="NBTFoundry" height="56">
   </picture>
 </p>
 
@@ -12,8 +12,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-    <img src="assets/hero-light.png" width="860"
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/hero-dark.png">
+    <img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/hero-light.png" width="860"
          alt="The phone app and the desktop installer reach NBT Manager on the head unit; the driver approves on iDrive">
   </picture>
 </p>
@@ -56,11 +56,11 @@ yet and are built from source.
 
 <table>
   <tr>
-    <td width="56%" align="center"><img src="assets/manager-install.gif" alt="On the car: an update arrives, the driver reviews and installs it, the health check passes"><br>
+    <td width="56%" align="center"><img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/manager-install.gif" alt="On the car: an update arrives, the driver reviews and installs it, the health check passes"><br>
       <sub>On the car: review, install, health check</sub></td>
-    <td width="22%" align="center"><img src="assets/mobile-install.webp" alt="On the phone: an install is requested, approved on the car, and listed"><br>
+    <td width="22%" align="center"><img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/mobile-install.webp" alt="On the phone: an install is requested, approved on the car, and listed"><br>
       <sub>On the phone</sub></td>
-    <td width="22%" align="center"><img src="assets/doom-demo.webp" alt="Doom running on the head unit's screen"><br>
+    <td width="22%" align="center"><img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/doom-demo.webp" alt="Doom running on the head unit's screen"><br>
       <sub>Doom on the head unit</sub></td>
   </tr>
 </table>
@@ -91,15 +91,15 @@ games you have the right to use.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/pieces-dark.png">
-    <img src="assets/pieces-light.png" width="860"
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/pieces-dark.png">
+    <img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/pieces-light.png" width="860"
          alt="The phone app (signed packages over Wi-Fi) and the desktop installer (SSH over ENET) reach NBT Manager on the head unit, driven by iDrive's menu and controller; NBT Manager gives the applications, built with the SDK and the NBT toolchain, the screen, input, audio, files and settings">
   </picture>
 </p>
 
 ### Safety
 
-> **Warning: installing or modifying this software can brick your head unit. Recovery may require professional service or replacement, at your expense. Provided AS IS; use at your own risk, subject to applicable law.** [Read the risk and liability disclaimer](../DISCLAIMER.md).
+> **Warning: installing or modifying this software can brick your head unit. Recovery may require professional service or replacement, at your expense. Provided AS IS; use at your own risk, subject to applicable law.** [Read the risk and liability disclaimer](https://github.com/NBTFoundry/.github/blob/main/DISCLAIMER.md).
 
 Use applications only while parked. Changing the software of a head unit is at
 your own risk: it can affect the car's systems and its warranty.
@@ -112,8 +112,8 @@ Nintendo; Android Auto of Google LLC.</sub>
 
 ## License
 
-Copyright (c) 2026 Fabien Poussin. Original code, tests, build scripts and documentation are licensed under **MPL-2.0**; see [LICENSE](../LICENSE).
+Copyright (c) 2026 Fabien Poussin. Original code, tests, build scripts and documentation are licensed under **MPL-2.0**; see [LICENSE](https://github.com/NBTFoundry/.github/blob/main/LICENSE).
 
 Original NBTFoundry logos, artwork and screenshots are under **MPL-2.0**, including copies in other NBTFoundry repositories. Third-party code, fonts, game data and their notices retain their own terms. Copyright permission for artwork does not grant trademark rights or imply endorsement by BMW AG or any other trademark owner.
 
-See [legal/README.md](../legal/README.md) for third-party license notices.
+See [legal/README.md](https://github.com/NBTFoundry/.github/blob/main/legal/README.md) for third-party license notices.
