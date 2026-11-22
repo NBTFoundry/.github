@@ -27,7 +27,7 @@ every change is approved by the driver on the car.
 **Supported head units:** BMW NBT Evo (iDrive 6). Support for the earlier NBT may
 come later.
 
-**Status:** early. [NBT Manager 0.1.0](https://github.com/NBTFoundry/manager/releases/tag/v0.1.0)
+**Status:** early. [NBT Manager 0.2.0](https://github.com/NBTFoundry/manager/releases/tag/v0.2.0)
 is a pre-release; the phone app and the desktop installer have no binary release
 yet and are built from source.
 
@@ -69,8 +69,8 @@ yet and are built from source.
 
 | Application | What it is | State | License |
 | --- | --- | --- | --- |
-| [nf-doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.20](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.20) | GPL-2.0-or-later; game data separate |
-| [nf-snes9x](https://github.com/NBTFoundry/nf-snes9x) | Snes9x: Super Nintendo games you own, from the phone or a USB stick | [1.63.0](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.0) | MPL-2.0; Snes9x non-commercial |
+| [nf-doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.21](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.21) | GPL-2.0-or-later; game data separate |
+| [nf-snes9x](https://github.com/NBTFoundry/nf-snes9x) | Snes9x: Super Nintendo games you own, from the phone or a USB stick | [1.63.1](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.1) | MPL-2.0; Snes9x non-commercial |
 | [nf-fbneo](https://github.com/NBTFoundry/nf-fbneo) | FinalBurn Neo: arcade games from zipped romsets | Car testing | MPL-2.0; FinalBurn Neo non-commercial |
 | [nf-pcsx-rearmed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PCSX ReARMed: PlayStation games you own, from a USB stick | Car testing | GPL-2.0-or-later |
 | [nf-android-auto](https://github.com/NBTFoundry/nf-android-auto) | Android Auto: [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto), installed and updated like any application | Test build | MPL-2.0; NBT-AAD PolyForm Noncommercial 1.0.0 |
