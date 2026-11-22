@@ -110,7 +110,8 @@ your own risk: it can affect the car's systems and its warranty.
 
 <sub>Not affiliated with or endorsed by BMW AG or any other trademark owner named here.
 BMW, iDrive and NBT are trademarks of BMW AG; DOOM of id Software; Super Nintendo of
-Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Android Auto of Google LLC.</sub>
+Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Android Auto of Google LLC;
+QNX of BlackBerry Limited.</sub>
 
 ## License
 
