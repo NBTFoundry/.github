@@ -27,7 +27,7 @@ every change is approved by the driver on the car.
 **Supported head units:** BMW NBT Evo (iDrive 6). Support for the earlier NBT may
 come later.
 
-**Status:** early. [NBT Manager 0.2.0](https://github.com/NBTFoundry/manager/releases/tag/v0.2.0)
+**Status:** early. [NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1)
 is a pre-release; the phone app and the desktop installer have no binary release
 yet and are built from source.
 
