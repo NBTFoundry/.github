@@ -106,6 +106,11 @@ If NBTFoundry is useful to you, you can support its development on
 [Ko-fi](https://ko-fi.com/fpoussin). Donations are optional and buy nothing:
 every application stays free.
 
+<p>
+  <a href="https://github.com/sponsors/fpoussin"><img src="https://img.shields.io/badge/Sponsor_on_GitHub-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" height="28"></a>
+  <a href="https://ko-fi.com/fpoussin"><img src="https://img.shields.io/badge/Support_on_Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support on Ko-fi" height="28"></a>
+</p>
+
 ### Safety
 
 > **Warning: installing or modifying this software can brick your head unit. Recovery may require professional service or replacement, at your expense. Provided AS IS; use at your own risk, subject to applicable law.** [Read the risk and liability disclaimer](https://github.com/NBTFoundry/.github/blob/main/DISCLAIMER.md).
