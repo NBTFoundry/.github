@@ -99,6 +99,13 @@ games you have the right to use.
   </picture>
 </p>
 
+### Support
+
+If NBTFoundry is useful to you, you can support its development on
+[GitHub Sponsors](https://github.com/sponsors/fpoussin) or
+[Ko-fi](https://ko-fi.com/fpoussin). Donations are optional and buy nothing:
+every application stays free.
+
 ### Safety
 
 > **Warning: installing or modifying this software can brick your head unit. Recovery may require professional service or replacement, at your expense. Provided AS IS; use at your own risk, subject to applicable law.** [Read the risk and liability disclaimer](https://github.com/NBTFoundry/.github/blob/main/DISCLAIMER.md).

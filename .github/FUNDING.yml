@@ -1,0 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Fabien Poussin
+# SPDX-License-Identifier: MPL-2.0
+# Organization default: the Sponsor button of every NBTFoundry repository
+# that has Sponsorships enabled and no FUNDING.yml of its own.
+github: fpoussin
+ko_fi: fpoussin
