@@ -69,12 +69,13 @@ yet and are built from source.
 
 | Application | What it is | State | License |
 | --- | --- | --- | --- |
-| [nf-doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.21](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.21) | GPL-2.0-or-later; game data separate |
-| [nf-snes9x](https://github.com/NBTFoundry/nf-snes9x) | Snes9x: Super Nintendo games you own, from the phone or a USB stick | [1.63.1](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.1) | MPL-2.0; Snes9x non-commercial |
-| [nf-fbneo](https://github.com/NBTFoundry/nf-fbneo) | FinalBurn Neo: arcade games from zipped romsets | Car testing | MPL-2.0; FinalBurn Neo non-commercial |
-| [nf-pcsx-rearmed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PCSX ReARMed: PlayStation games you own, from a USB stick | Car testing | GPL-2.0-or-later |
-| [nf-picodrive](https://github.com/NBTFoundry/nf-picodrive) | PicoDrive: Mega Drive, Mega-CD, 32X and Master System games you own | Car testing | MPL-2.0; PicoDrive non-commercial |
-| [nf-android-auto](https://github.com/NBTFoundry/nf-android-auto) | Android Auto: [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto), installed and updated like any application | Test build | MPL-2.0; NBT-AAD PolyForm Noncommercial 1.0.0 |
+| [nf-doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.23](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.23) | GPL-2.0-or-later; game data separate |
+| [nf-snes9x](https://github.com/NBTFoundry/nf-snes9x) | Snes9x: Super Nintendo games you own, from the phone or a USB stick | [1.63.4](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.4) | MPL-2.0; Snes9x non-commercial |
+| [nf-fbneo](https://github.com/NBTFoundry/nf-fbneo) | FinalBurn Neo: arcade games from zipped romsets | [0.1.0](https://github.com/NBTFoundry/nf-fbneo/releases/tag/v0.1.0) beta | MPL-2.0; FinalBurn Neo non-commercial |
+| [nf-pcsx-rearmed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PCSX ReARMed: PlayStation games you own, from a USB stick | [0.1.0](https://github.com/NBTFoundry/nf-pcsx-rearmed/releases/tag/v0.1.0) beta | GPL-2.0-or-later |
+| [nf-picodrive](https://github.com/NBTFoundry/nf-picodrive) | PicoDrive: Mega Drive, Mega-CD, 32X and Master System games you own | [0.1.0](https://github.com/NBTFoundry/nf-picodrive/releases/tag/v0.1.0) beta | MPL-2.0; PicoDrive non-commercial |
+| [nf-android-auto](https://github.com/NBTFoundry/nf-android-auto) | Android Auto: [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto), installed and updated like any application | [0.1.0](https://github.com/NBTFoundry/nf-android-auto/releases/tag/v0.1.0) beta | MPL-2.0; NBT-AAD PolyForm Noncommercial 1.0.0 |
+| [nf-gauges](https://github.com/NBTFoundry/nf-gauges) | Gauges: live engine gauges read from the car's own computers, no OBD adapter | [0.1.0](https://github.com/NBTFoundry/nf-gauges/releases/tag/v0.1.0) beta | MPL-2.0 |
 
 Apart from Doom's shareware episode, no game, ROM or BIOS is included: use only
 games you have the right to use.
@@ -122,7 +123,8 @@ your own risk: it can affect the car's systems and its warranty.
 
 <sub>Not affiliated with or endorsed by BMW AG or any other trademark owner named here.
 BMW, iDrive and NBT are trademarks of BMW AG; DOOM of id Software; Super Nintendo of
-Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Android Auto of Google LLC;
+Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Mega Drive, Mega-CD, 32X and
+Master System of Sega Corporation; Android Auto of Google LLC;
 QNX of BlackBerry Limited.</sub>
 
 ## License
