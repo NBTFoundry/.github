@@ -71,8 +71,6 @@ from source.
 
 - **Your own key.** Sign an app with your own key, add the key from the phone,
   and run your builds on your car.
-- **Apps in iDrive's menus.** Small apps that show up as regular iDrive menus
-  instead of taking the whole screen.
 - **Engine data.** Engine readings and fault codes for the apps that ask for them.
 - **Phone companions.** An app can bring its own screen to the phone app, for
   settings, files or a second display.
