@@ -57,6 +57,11 @@ from source.
   Linux desktop. A front end and a libretro host turn an emulator core into an
   application. The NBT toolchain, prebuilt for Linux, macOS and Windows, compiles
   it for the car with open-source tools only, without the QNX SDK.
+- **Work with an AI agent.** The SDK ships [step-by-step skills](https://github.com/NBTFoundry/sdk/blob/main/docs/porting.md)
+  that take a coding agent from an existing game, emulator or tool to a tested
+  package for the car: build, controls, tests and packaging. The toolchain, a
+  [template](https://github.com/NBTFoundry/template) and the release workflow
+  come ready to use.
 
 <table>
   <tr>
