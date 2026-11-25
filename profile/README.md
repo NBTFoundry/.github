@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>Applications for BMW NBT Evo head units, installed from your phone.</b>
+  <b>Run new applications on BMW NBT Evo head units, and write your own.</b>
 </p>
 
 <p align="center">
@@ -18,11 +18,14 @@
   </picture>
 </p>
 
-NBTFoundry turns the iDrive 6 screen into a small application platform. NBT
-Manager runs on the head unit and adds an entry to the iDrive menu; applications
-start from it, get the screen, the controller and the car's audio, and hand them
-back when they close. A paired phone installs, updates and configures them, and
-every change is approved by the driver on the car.
+NBTFoundry is everything an application needs to live on the iDrive 6 screen.
+NBT Manager runs on the head unit and hosts applications: it gives them the
+screen, the iDrive controller, USB gamepads, the car's audio and car data,
+supervises them, and brings back the last good version when an update fails.
+Developers write applications in C++ with the SDK, try them on a Linux desktop
+and compile them for the car with an open-source toolchain. Drivers install,
+update and configure them from a paired phone, and approve every change on the
+car.
 
 **Supported head units:** BMW NBT Evo (iDrive 6). Support for the earlier NBT may
 come later.
