@@ -64,6 +64,16 @@ from source.
   download, so the app runs on your desktop first and the same code builds for
   the car. Doom and four emulators reached the car this way.
 
+### Coming soon
+
+- **Third-party apps.** Sign an app with your own key and run it on your car, or
+  publish it in Get apps next to ours, exactly as you built it.
+- **Apps in iDrive's menus.** Small apps that show up as regular iDrive menus
+  instead of taking the whole screen.
+- **Engine data.** Engine readings and fault codes for the apps that ask for them.
+- **Phone companions.** An app can bring its own screen to the phone app, for
+  settings, files or a second display.
+
 <table>
   <tr>
     <td width="56%" align="center"><img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/manager-install.gif" alt="On the car: an update arrives, the driver reviews and installs it, the health check passes"><br>
