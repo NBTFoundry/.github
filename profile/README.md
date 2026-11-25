@@ -28,8 +28,9 @@ every change is approved by the driver on the car.
 come later.
 
 **Status:** early. [NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1)
-is a pre-release; the phone app and the desktop installer have no binary release
-yet and are built from source.
+is a pre-release, as is the [desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
+(Windows, macOS, Linux); the phone app has no public release yet and is built
+from source.
 
 ### What you can do
 
