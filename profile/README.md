@@ -63,11 +63,14 @@ from source.
   teach it the API, the car's controls and packaging, and the compiler is a free
   download, so the app runs on your desktop first and the same code builds for
   the car. Doom and four emulators reached the car this way.
+- **Publish it.** Open a pull request on
+  [community-apps](https://github.com/NBTFoundry/community-apps): we build your
+  application from its source, sign it and list it in Get apps.
 
 ### Coming soon
 
-- **Third-party apps.** Sign an app with your own key and run it on your car, or
-  publish it in Get apps next to ours, exactly as you built it.
+- **Your own key.** Sign an app with your own key, add the key from the phone,
+  and run your builds on your car.
 - **Apps in iDrive's menus.** Small apps that show up as regular iDrive menus
   instead of taking the whole screen.
 - **Engine data.** Engine readings and fault codes for the apps that ask for them.
