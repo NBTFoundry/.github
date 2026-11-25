@@ -57,11 +57,12 @@ from source.
   Linux desktop. A front end and a libretro host turn an emulator core into an
   application. The NBT toolchain, prebuilt for Linux, macOS and Windows, compiles
   it for the car with open-source tools only, without the QNX SDK.
-- **Work with an AI agent.** The SDK ships [step-by-step skills](https://github.com/NBTFoundry/sdk/blob/main/docs/porting.md)
-  that take a coding agent from an existing game, emulator or tool to a tested
-  package for the car: build, controls, tests and packaging. The toolchain, a
-  [template](https://github.com/NBTFoundry/template) and the release workflow
-  come ready to use.
+- **Apps in minutes.** Open the [template](https://github.com/NBTFoundry/template),
+  start your coding agent and tell it what you want on the screen. The SDK ships
+  the [skills](https://github.com/NBTFoundry/sdk/blob/main/docs/porting.md) that
+  teach it the API, the car's controls and packaging, and the compiler is a free
+  download, so the app runs on your desktop first and the same code builds for
+  the car. Doom and four emulators reached the car this way.
 
 <table>
   <tr>
