@@ -7,73 +7,22 @@
 </p>
 
 <p align="center">
-  <b>Run new applications on BMW NBT Evo head units, and write your own.</b>
+  <b>New apps for your BMW's iDrive screen:</b> Android Auto, live engine gauges, classic games.<br>
+  Installed from your phone, approved on the car. And the tools to write your own.
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/hero-dark.png">
-    <img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/hero-light.png" width="860"
-         alt="The phone app and the desktop installer reach NBT Manager on the head unit; the driver approves on iDrive">
-  </picture>
+  <a href="https://nbtfoundry.github.io"><b>Website</b></a> ·
+  <a href="https://nbtfoundry.github.io/#car">Will it work on my car?</a> ·
+  <a href="https://nbtfoundry.github.io/#start">Get started</a> ·
+  <a href="https://nbtfoundry.github.io/#faq">FAQ</a> ·
+  <a href="https://github.com/orgs/NBTFoundry/discussions">Discussions</a>
 </p>
 
-NBTFoundry is everything an application needs to live on the iDrive 6 screen.
-NBT Manager runs on the head unit and hosts applications: it gives them the
-screen, the iDrive controller, USB gamepads, the car's audio and car data,
-supervises them, and brings back the last good version when an update fails.
-Developers write applications in C++ with the SDK, try them on a Linux desktop
-and compile them for the car with an open-source toolchain. Drivers install,
-update and configure them from a paired phone, and approve every change on the
-car.
-
-**Supported head units:** BMW NBT Evo (iDrive 6). Support for the earlier NBT may
-come later.
-
-**Status:** early. [NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1)
-is a pre-release, as is the [desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
-(Windows, macOS, Linux); the phone app has no public release yet and is built
-from source.
-
-### What you can do
-
-- **Install from your phone.** Pair once with a code on the car's screen, then
-  send applications and updates over the car's Wi-Fi. The car checks each
-  package's signature and the driver confirms it on iDrive.
-- **Stay safe from bad updates.** A new version must start and stay healthy;
-  otherwise the previous one comes back by itself. An application too old for
-  the installed manager stays disabled until it is updated, instead of crashing.
-- **Bring your own games and files.** Send them from the phone, or plug a USB
-  stick into the car and import them; they are kept on the head unit's hard disk.
-- **Use the car's own controls.** Applications read the iDrive controller and a
-  wired USB gamepad, play through the car's speakers, and change their settings
-  live from the phone.
-- **Start with the car.** An application can start by itself when the head unit
-  boots.
-- **In your language.** English, French, German, Italian, Spanish, Chinese and
-  Japanese; the manager follows iDrive's language.
-- **Write your own.** The C++ SDK gives an application the screen (OpenGL ES 2),
-  audio, input, files and the manager's lifecycle, and builds the same code for a
-  Linux desktop. A front end and a libretro host turn an emulator core into an
-  application. The NBT toolchain, prebuilt for Linux, macOS and Windows, compiles
-  it for the car with open-source tools only, without the QNX SDK.
-- **Apps in minutes.** Open the [template](https://github.com/NBTFoundry/template),
-  start your coding agent and tell it what you want on the screen. The SDK ships
-  the [skills](https://github.com/NBTFoundry/sdk/blob/main/docs/porting.md) that
-  teach it the API, the car's controls and packaging, and the compiler is a free
-  download, so the app runs on your desktop first and the same code builds for
-  the car. Doom and four emulators reached the car this way.
-- **Publish it.** Open a pull request on
-  [community-apps](https://github.com/NBTFoundry/community-apps): we build your
-  application from its source, sign it and list it in Get apps.
-
-### Coming soon
-
-- **Your own key.** Sign an app with your own key, add the key from the phone,
-  and run your builds on your car.
-- **Engine data.** Engine readings and fault codes for the apps that ask for them.
-- **Phone companions.** An app can bring its own screen to the phone app, for
-  settings, files or a second display.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NBTFoundry/.github/main/profile/assets/gauges-demo.webp" width="860" alt="Gauges on the iDrive screen: torque and power curves, wheel speeds, the gear and the xDrive torque split"><br>
+  <sub>Gauges on the head unit's screen (simulated readings)</sub>
+</p>
 
 <table>
   <tr>
@@ -86,32 +35,54 @@ from source.
   </tr>
 </table>
 
+NBT Manager runs on the head unit and hosts applications: it gives them the
+screen, the iDrive controller, gamepads, the speakers and car data, and brings
+back the last good version when an update fails. Drivers install apps from a
+paired Android phone; developers write them in C++ with the SDK.
+
+**Supported:** BMW NBT Evo head units with iDrive 6 (the home screen of large
+tiles). **Status:** early.
+[NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1) and the
+[desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
+are pre-releases; the phone app is built from source until it reaches Google Play.
+
 ### Applications
 
-| Application | What it is | State | License |
-| --- | --- | --- | --- |
-| [nf-doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.23](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.23) | GPL-2.0-or-later; game data separate |
-| [nf-snes9x](https://github.com/NBTFoundry/nf-snes9x) | Snes9x: Super Nintendo games you own, from the phone or a USB stick | [1.63.4](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.4) | MPL-2.0; Snes9x non-commercial |
-| [nf-fbneo](https://github.com/NBTFoundry/nf-fbneo) | FinalBurn Neo: arcade games from zipped romsets | [0.1.0](https://github.com/NBTFoundry/nf-fbneo/releases/tag/v0.1.0) beta | MPL-2.0; FinalBurn Neo non-commercial |
-| [nf-pcsx-rearmed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PCSX ReARMed: PlayStation games you own, from a USB stick | [0.1.0](https://github.com/NBTFoundry/nf-pcsx-rearmed/releases/tag/v0.1.0) beta | GPL-2.0-or-later |
-| [nf-picodrive](https://github.com/NBTFoundry/nf-picodrive) | PicoDrive: Mega Drive, Mega-CD, 32X and Master System games you own | [0.1.0](https://github.com/NBTFoundry/nf-picodrive/releases/tag/v0.1.0) beta | MPL-2.0; PicoDrive non-commercial |
-| [nf-android-auto](https://github.com/NBTFoundry/nf-android-auto) | Android Auto: [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto), installed and updated like any application | [0.1.0](https://github.com/NBTFoundry/nf-android-auto/releases/tag/v0.1.0) beta | MPL-2.0; NBT-AAD PolyForm Noncommercial 1.0.0 |
-| [nf-gauges](https://github.com/NBTFoundry/nf-gauges) | Gauges: live engine gauges read from the car's own computers, no OBD adapter | [0.1.0](https://github.com/NBTFoundry/nf-gauges/releases/tag/v0.1.0) beta | MPL-2.0 |
+| Application | What you get | Release |
+| --- | --- | --- |
+| [Android Auto](https://github.com/NBTFoundry/nf-android-auto) | Your phone's maps, music and calls on the iDrive screen, built on [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto) | [0.1.0](https://github.com/NBTFoundry/nf-android-auto/releases/tag/v0.1.0) beta |
+| [Gauges](https://github.com/NBTFoundry/nf-gauges) | Live engine gauges read from the car's own computers, no OBD adapter | [0.1.0](https://github.com/NBTFoundry/nf-gauges/releases/tag/v0.1.0) beta |
+| [Doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.23](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.23) |
+| [Snes9x](https://github.com/NBTFoundry/nf-snes9x) | Super Nintendo games you own, from the phone or a USB stick | [1.63.4](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.4) |
+| [FinalBurn Neo](https://github.com/NBTFoundry/nf-fbneo) | Arcade games from zipped romsets | [0.1.0](https://github.com/NBTFoundry/nf-fbneo/releases/tag/v0.1.0) beta |
+| [PCSX ReARMed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PlayStation games you own, from a USB stick | [0.1.0](https://github.com/NBTFoundry/nf-pcsx-rearmed/releases/tag/v0.1.0) beta |
+| [PicoDrive](https://github.com/NBTFoundry/nf-picodrive) | Mega Drive, Mega-CD, 32X and Master System games you own | [0.1.0](https://github.com/NBTFoundry/nf-picodrive/releases/tag/v0.1.0) beta |
 
 Apart from Doom's shareware episode, no game, ROM or BIOS is included: use only
 games you have the right to use.
 
-### Projects
+### For developers
 
-| Repository | What it is | License |
-| --- | --- | --- |
-| [manager](https://github.com/NBTFoundry/manager) | NBT Manager, on the head unit: the iDrive menu entry, the manager's screen, signed installs and updates with rollback, the application bridge | MPL-2.0 |
-| [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, the package library, installs, updates, settings, files and logs | MPL-2.0 |
-| [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable, updates it, collects diagnostics | GPL-3.0-or-later; shared core/bindings MPL-2.0 |
-| [sdk](https://github.com/NBTFoundry/sdk) | The C++11 SDK for applications: lifecycle, display, audio, controller and gamepad input, files, a reusable front end and a libretro host for emulators | MPL-2.0 |
-| [toolchains](https://github.com/NBTFoundry/toolchains) | The NBT toolchain: Clang and LLD with the runtime applications link (picolibc, libc++), released for Linux, macOS and Windows | MPL-2.0; LLVM and picolibc under their own licenses |
+- **Apps in minutes.** Open the [template](https://github.com/NBTFoundry/template),
+  start your coding agent and tell it what you want on the screen: the SDK ships
+  the [skills](https://github.com/NBTFoundry/sdk/blob/main/docs/porting.md) that
+  teach it the API, the car's controls and packaging. Doom and four emulators
+  reached the car this way.
+- **Desktop first.** The same C++ code runs on a Linux desktop and builds for the
+  car with a free compiler for Linux, macOS and Windows.
+- **Publish it.** Open a pull request on
+  [community-apps](https://github.com/NBTFoundry/community-apps): we build your
+  application from its source, sign it and list it in Get apps.
 
-### How the pieces fit
+| Repository | What it is |
+| --- | --- |
+| [manager](https://github.com/NBTFoundry/manager) | NBT Manager, on the head unit: the iDrive menu entry, signed installs and updates with rollback, the application bridge |
+| [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, Get apps, installs, updates, settings, files and logs |
+| [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable |
+| [sdk](https://github.com/NBTFoundry/sdk) | The C++ SDK: display, audio, input, files, a front end and a libretro host for emulators |
+| [template](https://github.com/NBTFoundry/template), [examples](https://github.com/NBTFoundry/examples) | A bare application to start from; controls, settings and an LVGL interface |
+| [toolchains](https://github.com/NBTFoundry/toolchains) | The NBT toolchain: Clang and LLD with the runtime applications link |
+| [community-apps](https://github.com/NBTFoundry/community-apps) | Third-party applications, built and signed here |
 
 <p align="center">
   <picture>
@@ -120,6 +91,14 @@ games you have the right to use.
          alt="The phone app (signed packages over Wi-Fi) and the desktop installer (SSH over ENET) reach NBT Manager on the head unit, driven by iDrive's menu and controller; NBT Manager gives the applications, built with the SDK and the NBT toolchain, the screen, input, audio, files and settings">
   </picture>
 </p>
+
+### Coming soon
+
+- **On Google Play.** The phone app, without building it yourself.
+- **Fault codes.** Read and clear the car's fault codes on the screen, with more
+  engine readings for the gauges.
+- **Phone companions.** An app can bring its own screen to the phone app.
+- **Your own key.** Sign an app with your own key and run your builds on your car.
 
 ### Support
 
@@ -145,13 +124,9 @@ your own risk: it can affect the car's systems and its warranty.
 <sub>Not affiliated with or endorsed by BMW AG or any other trademark owner named here.
 BMW, iDrive and NBT are trademarks of BMW AG; DOOM of id Software; Super Nintendo of
 Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Mega Drive, Mega-CD, 32X and
-Master System of Sega Corporation; Android Auto of Google LLC;
+Master System of Sega Corporation; Android, Android Auto and Google Play of Google LLC;
 QNX of BlackBerry Limited.</sub>
 
 ## License
 
-Copyright (c) 2026 Fabien Poussin. Original code, tests, build scripts and documentation are licensed under **MPL-2.0**; see [LICENSE](https://github.com/NBTFoundry/.github/blob/main/LICENSE).
-
-Original NBTFoundry logos, artwork and screenshots are under **MPL-2.0**, including copies in other NBTFoundry repositories. Third-party code, fonts, game data and their notices retain their own terms. Copyright permission for artwork does not grant trademark rights or imply endorsement by BMW AG or any other trademark owner.
-
-See [legal/README.md](https://github.com/NBTFoundry/.github/blob/main/legal/README.md) for third-party license notices.
+Copyright (c) 2026 Fabien Poussin. **MPL-2.0** ([LICENSE](https://github.com/NBTFoundry/.github/blob/main/LICENSE)), logos, artwork and screenshots included; third-party parts keep their own terms ([notices](https://github.com/NBTFoundry/.github/blob/main/legal/README.md)). No trademark rights are granted.
