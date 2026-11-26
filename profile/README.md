@@ -45,25 +45,15 @@ paired Android phone; developers write them in C++ with the SDK.
 tiles), in BMWs, MINIs and the Toyota GR Supra. Not yet run on a Supra:
 [owners, tell us how it goes](https://github.com/orgs/NBTFoundry/discussions/1).
 **Status:** early.
-[NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1) and the
+[NBT Manager 0.4.0](https://github.com/NBTFoundry/manager/releases/tag/v0.4.0) is released, the
 [desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
-are pre-releases; the phone app is on Google Play in closed testing, open to anyone:
+is a pre-release; the phone app is on Google Play in closed testing, open to anyone:
 [join the test](https://nbtfoundry.github.io/beta.html) or [build it from source](https://github.com/NBTFoundry/mobile-app).
 
 ### Applications
 
-| Application | What you get | Release |
-| --- | --- | --- |
-| [Android Auto](https://github.com/NBTFoundry/nf-android-auto) | Your phone's maps, music and calls on the iDrive screen, built on [NBT-AAD](https://github.com/Sq00ky/Supra-iDrive6-Android-Auto) | [0.1.0](https://github.com/NBTFoundry/nf-android-auto/releases/tag/v0.1.0) beta |
-| [Gauges](https://github.com/NBTFoundry/nf-gauges) | Live engine gauges read from the car's own computers, no OBD adapter | [0.1.0](https://github.com/NBTFoundry/nf-gauges/releases/tag/v0.1.0) beta |
-| [Doom](https://github.com/NBTFoundry/nf-doom) | Doom (PrBoom+), with the shareware episode | [1.0.23](https://github.com/NBTFoundry/nf-doom/releases/tag/v1.0.23) |
-| [Snes9x](https://github.com/NBTFoundry/nf-snes9x) | Super Nintendo games you own, from the phone or a USB stick | [1.63.4](https://github.com/NBTFoundry/nf-snes9x/releases/tag/v1.63.4) |
-| [FinalBurn Neo](https://github.com/NBTFoundry/nf-fbneo) | Arcade games from zipped romsets | [0.1.0](https://github.com/NBTFoundry/nf-fbneo/releases/tag/v0.1.0) beta |
-| [PCSX ReARMed](https://github.com/NBTFoundry/nf-pcsx-rearmed) | PlayStation games you own, from a USB stick | [0.1.0](https://github.com/NBTFoundry/nf-pcsx-rearmed/releases/tag/v0.1.0) beta |
-| [PicoDrive](https://github.com/NBTFoundry/nf-picodrive) | Mega Drive, Mega-CD, 32X and Master System games you own | [0.1.0](https://github.com/NBTFoundry/nf-picodrive/releases/tag/v0.1.0) beta |
-
-Apart from Doom's shareware episode, no game, ROM or BIOS is included: use only
-games you have the right to use.
+Android Auto, live gauges, Doom and four console and arcade emulators:
+[see them all](https://nbtfoundry.github.io/#apps), with their releases.
 
 ### For developers
 
@@ -127,10 +117,8 @@ your own risk: it can affect the car's systems and its warranty.
 
 <sub>Not affiliated with or endorsed by BMW AG, Toyota Motor Corporation or any other
 trademark owner named here. BMW, MINI, iDrive and NBT are trademarks of BMW AG; Toyota and
-Supra of Toyota Motor Corporation; DOOM of id Software; Super Nintendo of
-Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Mega Drive, Mega-CD, 32X and
-Master System of Sega Corporation; Android, Android Auto and Google Play of Google LLC;
-QNX of BlackBerry Limited.</sub>
+Supra of Toyota Motor Corporation; DOOM of id Software; Android, Android Auto and
+Google Play of Google LLC; QNX of BlackBerry Limited.</sub>
 
 ## License
 
