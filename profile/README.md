@@ -8,7 +8,8 @@
 
 <p align="center">
   <b>New apps for your BMW's iDrive screen:</b> Android Auto, live engine gauges, classic games.<br>
-  Installed from your phone, approved on the car. And the tools to write your own.
+  Installed from your phone, approved on the car. And the tools to write your own.<br>
+  For BMW, MINI and the Toyota GR Supra with iDrive 6.
 </p>
 
 <p align="center">
@@ -41,7 +42,9 @@ back the last good version when an update fails. Drivers install apps from a
 paired Android phone; developers write them in C++ with the SDK.
 
 **Supported:** BMW NBT Evo head units with iDrive 6 (the home screen of large
-tiles). **Status:** early.
+tiles), in BMWs, MINIs and the Toyota GR Supra. Not yet run on a Supra:
+[owners, tell us how it goes](https://github.com/orgs/NBTFoundry/discussions/1).
+**Status:** early.
 [NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1) and the
 [desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
 are pre-releases; the phone app is built from source until it reaches Google Play.
@@ -121,8 +124,9 @@ your own risk: it can affect the car's systems and its warranty.
 
 ---
 
-<sub>Not affiliated with or endorsed by BMW AG or any other trademark owner named here.
-BMW, iDrive and NBT are trademarks of BMW AG; DOOM of id Software; Super Nintendo of
+<sub>Not affiliated with or endorsed by BMW AG, Toyota Motor Corporation or any other
+trademark owner named here. BMW, MINI, iDrive and NBT are trademarks of BMW AG; Toyota and
+Supra of Toyota Motor Corporation; DOOM of id Software; Super Nintendo of
 Nintendo; PlayStation of Sony Interactive Entertainment Inc.; Mega Drive, Mega-CD, 32X and
 Master System of Sega Corporation; Android, Android Auto and Google Play of Google LLC;
 QNX of BlackBerry Limited.</sub>
