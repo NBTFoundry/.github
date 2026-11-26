@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>New apps for your BMW's iDrive screen:</b> Android Auto, live engine gauges, classic games.<br>
+  <b>New apps for your iDrive screen:</b> Android Auto, live engine gauges, classic games.<br>
   Installed from your phone, approved on the car. And the tools to write your own.<br>
   For BMW, MINI and the Toyota GR Supra with iDrive 6.
 </p>
