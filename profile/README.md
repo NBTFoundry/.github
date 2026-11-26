@@ -47,7 +47,8 @@ tiles), in BMWs, MINIs and the Toyota GR Supra. Not yet run on a Supra:
 **Status:** early.
 [NBT Manager 0.3.1](https://github.com/NBTFoundry/manager/releases/tag/v0.3.1) and the
 [desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
-are pre-releases; the phone app is built from source until it reaches Google Play.
+are pre-releases; the phone app is on Google Play in internal testing, not public yet:
+[ask to be a tester](https://github.com/orgs/NBTFoundry/discussions/categories/q-a) or [build it from source](https://github.com/NBTFoundry/mobile-app).
 
 ### Applications
 
@@ -97,7 +98,7 @@ games you have the right to use.
 
 ### Coming soon
 
-- **On Google Play.** The phone app, without building it yourself.
+- **Public on Google Play.** The phone app for everyone. It is in internal testing today.
 - **Fault codes.** Read and clear the car's fault codes on the screen, with more
   engine readings for the gauges.
 - **Phone companions.** An app can bring its own screen to the phone app.
