@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>New apps for your iDrive screen:</b> Android Auto, live engine gauges, classic games.<br>
+  <b>New apps for your iDrive screen:</b> Android Auto, live engine gauges, fault codes, classic games.<br>
   Installed from your phone, approved on the car. And the tools to write your own.<br>
   For BMW, MINI and the Toyota GR Supra with iDrive 6.
 </p>
@@ -54,7 +54,7 @@ is a pre-release; the phone app is on Google Play in closed testing, open to any
 
 ### Applications
 
-Android Auto, live gauges, Doom and four console and arcade emulators:
+Android Auto, live gauges, fault codes, Doom and four console and arcade emulators:
 [see them all](https://nbtfoundry.github.io/#apps), with their releases.
 
 ### For developers
@@ -91,8 +91,6 @@ Android Auto, live gauges, Doom and four console and arcade emulators:
 ### Coming soon
 
 - **Public on Google Play.** The phone app for everyone. It is in [closed testing](https://nbtfoundry.github.io/beta.html) today.
-- **Fault codes.** Read and clear the car's fault codes on the screen, with more
-  engine readings for the gauges.
 - **Phone companions.** An app can bring its own screen to the phone app.
 - **Your own key.** Sign an app with your own key and run your builds on your car.
 
