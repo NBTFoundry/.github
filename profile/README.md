@@ -39,14 +39,16 @@
 NBT Manager runs on the head unit and hosts applications: it gives them the
 screen, the iDrive controller, gamepads, the speakers and car data, and brings
 back the last good version when an update fails. Drivers install apps from a
-paired Android phone; developers write them in C++ with the SDK.
+paired Android phone; developers write them in C++ with the SDK. Its screen
+takes the car's look, as a BMW, a MINI or a Supra shows iDrive, and the phone
+app follows.
 
 **Supported:** BMW NBT Evo head units with iDrive 6 (the home screen of large
 tiles), in BMWs, MINIs and the Toyota GR Supra. Not yet run on a Supra:
 [owners, tell us how it goes](https://github.com/orgs/NBTFoundry/discussions/1).
 **Status:** early.
-[NBT Manager 0.4.0](https://github.com/NBTFoundry/manager/releases/tag/v0.4.0) is released, the
-[desktop installer 0.1.0](https://github.com/NBTFoundry/installer/releases/tag/v0.1.0)
+[NBT Manager 0.5.0](https://github.com/NBTFoundry/manager/releases/tag/v0.5.0) is released, the
+[desktop installer 0.1.1](https://github.com/NBTFoundry/installer/releases/tag/v0.1.1)
 is a pre-release; the phone app is on Google Play in closed testing, open to anyone:
 [join the test](https://nbtfoundry.github.io/beta.html) or [build it from source](https://github.com/NBTFoundry/mobile-app).
 
@@ -93,8 +95,6 @@ Android Auto, live gauges, Doom and four console and arcade emulators:
   engine readings for the gauges.
 - **Phone companions.** An app can bring its own screen to the phone app.
 - **Your own key.** Sign an app with your own key and run your builds on your car.
-- **Your car's look.** BMW, MINI and Supra themes on the car's screen, after each
-  make's own iDrive; the phone app follows the car.
 
 ### Support
 
