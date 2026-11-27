@@ -93,6 +93,8 @@ Android Auto, live gauges, Doom and four console and arcade emulators:
   engine readings for the gauges.
 - **Phone companions.** An app can bring its own screen to the phone app.
 - **Your own key.** Sign an app with your own key and run your builds on your car.
+- **Your car's look.** BMW, MINI and Supra themes on the car's screen, after each
+  make's own iDrive; the phone app follows the car.
 
 ### Support
 
