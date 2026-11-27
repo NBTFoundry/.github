@@ -47,7 +47,7 @@ app follows.
 tiles), in BMWs, MINIs and the Toyota GR Supra. Not yet run on a Supra:
 [owners, tell us how it goes](https://github.com/orgs/NBTFoundry/discussions/1).
 **Status:** early.
-[NBT Manager 0.5.0](https://github.com/NBTFoundry/manager/releases/tag/v0.5.0) is released, the
+[NBT Manager 0.5.2](https://github.com/NBTFoundry/manager/releases/tag/v0.5.2) is released, the
 [desktop installer 0.1.1](https://github.com/NBTFoundry/installer/releases/tag/v0.1.1)
 is a pre-release; the phone app is on Google Play in closed testing, open to anyone:
 [join the test](https://nbtfoundry.github.io/beta.html) or [build it from source](https://github.com/NBTFoundry/mobile-app).
