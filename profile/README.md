@@ -68,12 +68,12 @@ Android Auto, live gauges, fault codes, Doom and four console and arcade emulato
   car with a free compiler for Linux, macOS and Windows.
 - **Publish it.** Open a pull request on
   [community-apps](https://github.com/NBTFoundry/community-apps): we build your
-  application from its source, sign it and list it in Get apps.
+  application from its source, sign it and list it in the phone app.
 
 | Repository | What it is |
 | --- | --- |
 | [manager](https://github.com/NBTFoundry/manager) | NBT Manager, on the head unit: the iDrive menu entry, signed installs and updates with rollback, the application bridge |
-| [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, Get apps, installs, updates, settings, files and logs |
+| [mobile-app](https://github.com/NBTFoundry/mobile-app) | The Android app: pairing, the app catalog, installs, updates, settings, files and logs |
 | [installer](https://github.com/NBTFoundry/installer) | The desktop installer: puts NBT Manager on the car over the ENET cable |
 | [sdk](https://github.com/NBTFoundry/sdk) | The C++ SDK: display, audio, input, files, a front end and a libretro host for emulators |
 | [template](https://github.com/NBTFoundry/template), [examples](https://github.com/NBTFoundry/examples) | A bare application to start from; controls, settings and an LVGL interface |
