@@ -93,6 +93,7 @@ Android Auto, live gauges, fault codes, Doom and four console and arcade emulato
 - **Public on Google Play.** The phone app for everyone. It is in [closed testing](https://nbtfoundry.github.io/beta.html) today.
 - **Phone companions.** An app can bring its own screen to the phone app.
 - **Your own key.** Sign an app with your own key and run your builds on your car.
+- **iPhone.** The phone app for iPhone. Planned, with no date yet: it is for Android today.
 
 ### Support
 
